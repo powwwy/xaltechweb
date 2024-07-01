@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="xal.css">
+    <!-- Link to phones.css for phones -->
+    <link rel="stylesheet" media="only screen and (max-width: 767px)" href="phones.css">
+    <!-- Link to tablets.css for tablets and small laptops -->
+    <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 1080px)" href="tablets.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/jpg" href="images/favicon.ico">
+    <title>Xalal Technologies</title>
+</head>
+
+<body >
+    <header  id="nav3">
+        <nav class="nav1">
+            <a href="index.html"><img src="images/xr.png" alt="Logo" width="60px"></a> 
+            <a href="index.html">Home</a>
+        </nav>
+        </header>
+        <main>
+            <div class="imgcont">
+           <img src="images/dimens.png" alt="Website Creation" style="width: 30%;" >
+       </div> 
+           <h1>3D Services </h1>
+            <div class="cont3">
+               <p>3D technology aids in the creation of 3 dimensional objects offering the ability to create life like objects.</p>
+               <p>3D technology has become ever more popular and large companies are using such technology even for advertisements.</p>
+               <p>We wish to help businesses and individuals level up thir brand with the help of 3D technology.</p>
+               <p>Would you like some 3D advertisements or models?</p>
+               <div class="cont2">
+                   <p><div class="xal">Xalal</div> is a freelance company that offers a range of 3D services.</p>
+                   </div>
+            </div>
+            <h2>Our services include but are not limited to:</h2>
+            <section class = "create">
+            <div class="cont4">
+            <div class="tabs">
+               <table>
+                   <tr>
+                       <th>Service</th>
+                       <th>Description</th>
+                   </tr>
+                   <tr>
+                       <td>3D Modelling</td>
+                       <td>Custom 3D builds tailored to your liking eg buildings/people</td>
+                   </tr>
+                   <tr>
+                       <td>3D Animation</td>
+                       <td>Stunning animations for events ensured to drive more traffic.</td>
+                   </tr>
+                   <tr>
+                       <td>3D Rigging</td>
+                       <td>Visual demonstration of moving machines and people as well as their interactions with the environment.</td>
+                   </tr>
+                   <tr>
+                       <td>Character Design</td>
+                       <td>Creation of character model usable for sites such as vtube.</td>
+                   </tr>
+                   <tr>
+                       <td>Advertisements</td>
+                       <td>Spread your products far and wide with a custom advertisement made to attract customers</td>
+                   </tr>
+                   <!-- Add more rows for additional services -->
+               </table>
+            </div>
+            </section>
+            
+           </div>
+           <a href="#" onclick="sendEmail();" target="_blank" class=" button">Contact</a>
+               <script>
+               function sendEmail(){
+                   var recipient = "xalaltech@gmail.com";
+                   var subject ="Website Request";
+                   var body = " ";
+                   var mailtoLink = "mailto: " + recipient + "?subject=" + subject +"&body="+ body;
+                   window.location.href = mailtoLink;
+                 }
+                 </script>
+            <p><a href="post-login/3d-order.php">Place Order</a></p>
+       </main>
+       <footer>
+           <p class="cont3">&copy; 2024<div class="xal ">Xalal Technologies</div> </p>
+       </footer>
+       <script src="xal.js"></script>
+   </body>
+   </html>

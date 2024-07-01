@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="xal.css">
+    <!-- Link to phones.css for phones -->
+    <link rel="stylesheet" media="only screen and (max-width: 767px)" href="phones.css">
+    <!-- Link to tablets.css for tablets and small laptops -->
+    <link rel="stylesheet" media="only screen and (min-width: 768px)and (max-width:1080px)" href="tablets.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <title>Xalal Technologies</title>
+</head>
+
+<body>
+    <div class="image-container">
+    </div>
+        <header>
+            <nav class = "nav1">
+            <a href="index.html"><img src="images/xr.png" alt="Logo" width="60px"></a> 
+            <a href="index.html" class ="active">Home</a>
+            <a href="#" onclick="sendEmail();" target="_blank" class=" button">Contact</a>
+            <script>
+            function sendEmail(){
+                var recipient = "xalaltech@gmail.com";
+                var subject ="Inquiry";
+                var body = " ";
+                var mailtoLink = "mailto: " + recipient + "?subject=" + subject +"&body="+ body;
+                window.location.href = mailtoLink;
+              }
+              </script>
+            <a href="signup.php">Sign Up</a>
+            <a href="login.php">Login</a>
+        </nav>
+        </header>
+    
+
+    <main>
+        <section class=" begin">
+        <h1>Welcome to Our Website</h1>
+        <p>Explore our site using the links above.</p>
+        <p>Scroll down to see more content.</p>
+        <div class = "cont1">
+         <h2>What is <h2 class ="xal"> Xalal ?</h2></h2>
+        </div>
+        <div class="cont2">
+            <p><div class="xal">Xalal</div> is a freelance company that offers a range of services.</p>
+            </div>
+        </section>
+            <section class="services">
+                <div class="service">
+                    <img src="images/webicon.png" alt="Website Creation"  width="450px">
+                    <div class = "serve">
+                    <h3>Website Creation</h3>
+                    <p>We build stunning and functional websites tailored to your needs.</p>
+                    <a href="creation.html" class ="button">Learn More</a>
+                </div>
+                </div>
+        
+                <div class="service">
+                    <img src="images/design.png"  alt="Graphic Design" width="550px">
+                    <div class = "serve">
+                    <h3>Graphic Design</h3>
+                    <p>Elevate your brand with eye-catching graphics and designs.</p>
+                    <a href="design.html" class ="button">Learn More</a>
+                </div>
+        </div>
+                <div class="service">
+                    <img src="images/dimens.png" alt="3D Services" width="550px">
+                    <div class = "serve">
+                    <h3>3D Services</h3>
+                    <p>We bring your ideas to life with our 3D modeling and rendering services.</p>
+                    <a href="3d.html" class ="button">Learn More</a>
+                </div>
+            </div>
+            </section>
+    </main>
+    <footer>
+        <div class="foot">
+        <p class="cont3">&copy; 2023<div class="xal ">Xalal Technologies</div> </p>
+    </div>
+        <p> Email: xalaltech@gmail.com </p>
+    </footer>
+    <script src="xal.js"></script>
+</body>
+</html>

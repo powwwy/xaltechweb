@@ -1,0 +1,196 @@
+:root {
+    --primary-color: rgb(255, 0, 0);
+    --primary-transluscent: #ff0000bd;
+    --secondary-color: #ff5c00;
+    --secondary-transluscent: rgba(255, 94, 0, 0.642);
+    --background-color: rgb(206, 206, 206);
+}
+*{
+    font-family: 'Dosis', sans-serif;
+}
+#logBody{
+    background-color: rgb(21, 0, 43);
+}
+#signBody{
+    background-color: rgb(21, 0, 43);
+}
+#type2form input::placeholder{
+    color: #161616;
+    opacity: 0.75;
+}
+#type2form input {
+    color: #161616;
+}
+#referral_code input::placeholder{
+    color: #161616;
+    opacity: 0.75;
+}
+#referral_code input {
+    color: #161616;
+}
+.nav2{
+    background-color: #161616;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 22px;
+}
+.nav2 a{
+ text-decoration: none;
+    color: aliceblue;
+}
+.nav2 a:hover{
+    background: 
+  linear-gradient(to right bottom, #ff0000, #e60c0c, rgb(255, 46, 18),rgb(255, 72, 0), #7c1d00 );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+    font-size: 25px;
+    transition: 0.5s;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color);
+}
+
+h2{
+    font-size: 28px;
+}
+
+.details, .editing-details form{
+    background-color: var(--secondary-transluscent);
+    padding: 30px;
+    border-radius: 45px;
+    display: flex;
+   flex-direction: row-reverse;
+   align-items: center;
+   justify-content: space-evenly;
+   font-size: 23px;
+}
+form input[type="email"],
+form input[type="text"],
+form input[type="submit"],
+form input[type = "phone"],
+form input[type="password"]{
+    font-size: 23px;
+    padding: 13px;
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-left: 17px;
+    color: rgb(255, 255, 255);
+}
+input:focus{
+    outline: none;
+    border-bottom: 6px solid transparent;
+    border-image: linear-gradient(0.25turn, rgba(255,249,34), rgba(255,0,128), rgba(56,2,155,0));
+border-image-slice: 1;
+}
+.btn{
+    font-size: 23px;
+    background-color: var(--secondary-color);
+    padding: 20px;
+    border-radius: 45px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+}
+.btn:hover{
+    background-color: var(--primary-color);
+}
+#profile{
+    width: 70px; 
+    height:70px; 
+     border-radius: 50%;
+}
+#logout{
+    background-color: var(--primary-color);
+    border-radius: 45px;
+    float: right;
+    padding: 20px;
+    text-decoration: none;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+.profile-pic img{
+    width: 500px; 
+    height: 500px; 
+    border-radius: 50%;
+     border: 2px black solid;
+    border-radius: 45px; 
+    text-decoration: none; 
+    color: white; 
+    padding :0px; 
+    float:right;
+    box-shadow: 0 8px 12px 0 rgba(36, 255, 211, 0.267), 0 10px 24px 0 rgba(43, 255, 234, 0.267);
+}
+
+.pending{ 
+    background-color: var(--primary-transluscent);
+    
+    padding: 30px;
+    border-radius: 45px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+   font-size: 20px;
+}
+.past{
+   background-color: #359310bd;
+    padding: 30px;
+    border-radius: 45px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+   font-size: 20px;
+}
+.referral{
+    padding: 30px;
+    border-radius: 45px;
+   font-size: 20px;
+}
+
+/*landing page styles */
+
+.webby a, .illustration a, .modelling a, .catalouge a{
+    text-decoration: none;
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    border-radius: 45px;
+}
+.webby a:hover, .illustration a:hover, .modelling a:hover, .catalouge a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: var(--primary-color);
+    padding: 17px;
+    border-radius: 45px;
+    transition: 0.6s;
+}
+.webby img, .illustration img, .modelling img, .catalouge img{
+    width: 500px;
+    height: 500px;
+}
+
+.webby, .modelling{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    background-color: var(--primary-transluscent);
+border-radius: 45px;
+padding: 20px;
+}
+.illustration, .catalouge{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 23px;
+    background-color: var(--secondary-transluscent);
+    border-radius: 45px;
+    padding: 20px;
+}

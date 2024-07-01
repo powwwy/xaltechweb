@@ -1,0 +1,115 @@
+#logBody{
+    background-color: rgb(21, 0, 43);
+}
+#signBody{
+    background-color: rgb(21, 0, 43);
+}
+
+.nav2{
+    font-size: 16px;
+  }
+  .nav1 img {
+    width: 60px;
+  }
+  #profile{
+      width: 60px;
+      height: 60px;
+  }
+  h2{
+      font-size: 22px;
+  }
+  
+  .details, .editing-details form{
+      background-color: var(--secondary-transluscent);
+      padding: 15px;
+      border-radius: 45px;
+      display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-evenly;
+     font-size: 20px;
+  }
+  
+  .btn{
+      font-size: 20px;
+      background-color: var(--secondary-color);
+      padding: 15px;
+      border-radius: 45px;
+      border: none;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0, 0, 0, 0.267);
+  }
+  .btn:hover{
+      background-color: var(--primary-color);
+  }
+  
+  .profile-pic img{
+      width: 200px;
+      height: 200px;
+      padding: 0px;
+      margin-bottom: 15px;
+  }
+  
+  .pending{ 
+      background-color: var(--primary-transluscent);
+      padding: 15px;
+      border-radius: 45px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+     font-size: 19px;
+  }
+  .past{
+     background-color: #359310bd;
+      padding: 15px;
+      border-radius: 45px;
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+     font-size: 19px;
+  }
+  .referral{
+      padding: 10px;
+      border-radius: 45px;
+     font-size: 19px;
+  }
+  
+  /*landing page styles */
+  
+  .webby a, .illustration a, .modelling a, .catalouge a{
+      text-decoration: none;
+      color: white;
+      background-color: var(--secondary-color);
+      padding: 10px;
+      border-radius: 45px;
+  }
+  .webby a:hover, .illustration a:hover, .modelling a:hover, .catalouge a:hover{
+      text-decoration: none;
+      color: black;
+      background-color: var(--primary-color);
+      padding: 17px;
+      border-radius: 45px;
+      transition: 0.6s;
+  }
+  .webby img, .illustration img, .modelling img, .catalouge img{
+      width: 200px;
+      height: 200px;
+  }
+  
+  .webby, .modelling{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 20px;
+      background-color: var(--primary-transluscent);
+  border-radius: 45px;
+  padding: 8px;
+  }
+  .illustration, .catalouge{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 20px;
+      background-color: var(--secondary-transluscent);
+      border-radius: 45px;
+      padding: 20px;
+  }

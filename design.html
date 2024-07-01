@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=yes">
+    <link rel="stylesheet" href="xal.css">
+    <!-- Link to phones.css for phones -->
+    <link rel="stylesheet" media="only screen and (max-width: 767px)" href="phones.css">
+    <!-- Link to tablets.css for tablets and small laptops -->
+    <link rel="stylesheet" media="only screen and (min-width: 768px) and (max-width: 1080px)" href="tablets.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap" rel="stylesheet">
+    <title>Xalal Technologies</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav1">
+            <a href="index.html"><img src="images/xr.png" alt="Logo" width="60px"></a> 
+            <a href="index.html">Home</a>
+        </nav>
+    </header>
+    <main>
+        <div class="imgcont">
+        <img src="images/design.png" alt="Website Creation" >
+    </div>
+        <h1>Graphic Design</h1>
+         <div class="cont3">
+            <p>In this digital age technology is becoming ever more popular.</p>
+            <p>With this increase the design of everything has become simpler.</p>
+            <p>We wish to help businesses and individuals get their brand recognized with or designs </p>
+            <p>Are you in need of some sylish and modern graphical designs?</p>
+            <div class="cont2">
+                <p><div class="xal">Xalal</div>is a freelance company that offers design services.</p>
+                </div>
+         </div>
+         <h2>Our services include but are not limited to:</h2>
+         <section class = "create">
+         <div class="cont4">
+         <div class="tabs">
+            <table>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Logo Creation Design</td>
+                    <td>Establish your brand with a logo that makes your business shine.</td>
+                </tr>
+                <tr>
+                    <td>Web Design</td>
+                    <td>Graphical depictions of how your webite would look. Also look at our <a href="creation.html">other service</a></td>
+                </tr>
+                <tr>
+                    <td>Marketing tools</td>
+                    <td>Creation of flyers, posters etc for your busniess to get out there.</td>
+                </tr>
+                <tr>
+                    <td>Illustrations</td>
+                    <td>Coming soon</td>
+                </tr>
+                <!-- Add more rows for additional services -->
+            </table>
+         </div>
+         </section>
+         
+        </div>
+        <a href="#" onclick="sendEmail();" target="_blank" class=" button">Contact</a>
+            <script>
+            function sendEmail(){
+                var recipient = "xalaltech@gmail.com";
+                var subject ="Design Request";
+                var body = " ";
+                var mailtoLink = "mailto: " + recipient + "?subject=" + subject +"&body="+ body;
+                window.location.href = mailtoLink;
+              }
+              </script>
+    </main>
+    <footer>
+        <p class="cont3">&copy; 2023<div class="xal ">Xalal Technologies</div> </p>
+    </footer>
+    <script src="xal.js"></script>
+</body>
+</html>
